@@ -1,0 +1,31 @@
+{
+  "name": "@h-design/h-flex",
+  "version": "0.0.0",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist",
+  "repository": "git@github.com:Hrithikcse52/h-design.git",
+  "author": "hrithikcse52 hrithik.cse52@gmail.com",
+  "contributors": [
+    "hrithikcse52 hrithik.cse52@gmail.com"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "ds clean",
+    "build": "ds build",
+    "start": "ds build --watch",
+    "test": "ds test",
+    "lint": "ds lint",
+    "size": "ds size"
+  },
+  "files": [
+    "dist",
+    "src",
+    "!*.test.*",
+    "!__snapshots__",
+    "!__tests__"
+  ],
+  "dependencies": {
+    "@babel/runtime": "~7.11.2"
+  }
+}

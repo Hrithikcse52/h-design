@@ -1,0 +1,17 @@
+{
+  "name": "@h-design/babel-preset",
+  "description": "Automatically load the css for the @h-design design system.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Hrithikcse52/h-design.git",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "!*.test.*",
+    "!__snapshots__",
+    "!__tests__"
+  ],
+  "dependencies": {
+    "@design-systems/babel-plugin-include-styles": "4.15.2"
+  }
+}
