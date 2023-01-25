@@ -1212,6 +1212,13 @@
     core-js-pure "^3.25.1"
     regenerator-runtime "^0.13.11"
 
+"@babel/runtime@7.11.2":
+  version "7.11.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.9", "@babel/runtime@^7.17.8", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.20.13"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
@@ -3356,9 +3363,9 @@
   resolved "https://registry.yarnpkg.com/@proof-ui/utils/-/utils-0.1.6.tgz#f75a44fabb51cb51137d5c4a4675c5ec136bfbca"
   integrity sha512-ymZeWsLAaiHbum00Xd3zEeP1eseCut5uCfv7LTGXBelrKKCZdS4pIdHMB+Qc1QOtjAIVYJ5E+HMyuHpw8y6hWA==
 
-"@royriojas/get-exports-from-file@git+https://github.com/hipstersmoothie/get-exports-from-file.git#all":
+"@royriojas/get-exports-from-file@https://github.com/hipstersmoothie/get-exports-from-file#all":
   version "1.3.0"
-  resolved "git+https://github.com/hipstersmoothie/get-exports-from-file.git#2674835dac0cb1a9821956020d00db22ef9efae0"
+  resolved "https://github.com/hipstersmoothie/get-exports-from-file#2674835dac0cb1a9821956020d00db22ef9efae0"
   dependencies:
     "@babel/parser" "7.4.5"
     "@babel/traverse" "7.4.5"
@@ -8571,9 +8578,9 @@ define-property@^2.0.2:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
 
-"degit@git+https://github.com/hipstersmoothie/degit.git#private-release":
+"degit@https://github.com/hipstersmoothie/degit.git#private-release":
   version "2.1.4"
-  resolved "git+https://github.com/hipstersmoothie/degit.git#77bdec052337a560e3487b4c45e402d5de49fe55"
+  resolved "https://github.com/hipstersmoothie/degit.git#77bdec052337a560e3487b4c45e402d5de49fe55"
   dependencies:
     chalk "2.4.2"
     githuburl "0.1.6"
@@ -9427,9 +9434,9 @@ eslint-formatter-pretty@^3.0.0:
     string-width "^4.2.0"
     supports-hyperlinks "^2.0.0"
 
-"eslint-import-resolver-lerna@git+https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#catch":
+"eslint-import-resolver-lerna@https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#catch":
   version "1.1.0"
-  resolved "git+https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#5c67ee424b102be38755728b55102e12f1bbd52d"
+  resolved "https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#5c67ee424b102be38755728b55102e12f1bbd52d"
 
 eslint-import-resolver-node@^0.3.2, eslint-import-resolver-node@^0.3.3:
   version "0.3.7"
@@ -17828,7 +17835,7 @@ regenerator-runtime@^0.11.0:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
-regenerator-runtime@^0.13.11, regenerator-runtime@^0.13.7:
+regenerator-runtime@^0.13.11, regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.7:
   version "0.13.11"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
   integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
