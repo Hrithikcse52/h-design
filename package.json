@@ -1,7 +1,7 @@
 {
   "name": "@h-design/monorepo",
   "private": true,
-  "repository": "git@github.com:Hrithikcse52/h-design.git",
+  "repository": "https://github.com/Hrithikcse52/h-design",
   "author": "hrithikcse52 hrithik.cse52@gmail.com",
   "contributors": [
     "hrithikcse52 hrithik.cse52@gmail.com"

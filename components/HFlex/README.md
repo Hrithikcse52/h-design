@@ -1,6 +1,6 @@
 # @h-design/h-flex
 
-Welcome to my `HFlex` package.
+Welcome to my `HFlex` component.
 
 ## Installation
 
@@ -10,6 +10,10 @@ npm i @h-design/h-flex
 yarn add @h-design/h-flex
 ```
 
+Then to use the component in your code just import it!
+
 ```js
 import HFlex from '@h-design/h-flex';
+// and with css-modules
+import '@h-design/h-flex/dist/main.css';
 ```
